@@ -1,0 +1,1 @@
+DBCC CHECKIDENT (Material, RESEED, 0)

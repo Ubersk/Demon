@@ -11,10 +11,10 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Kruchinin_28092022
-build_property.ProjectDir = C:\Users\student\Documents\Visual Studio 2022\Kruchinin 28092022\Kruchinin 28092022\
+build_property.ProjectDir = C:\Users\kruch\OneDrive\Документы\DemExamAvalon\28092022var3\
 
-[C:/Users/student/Documents/Visual Studio 2022/Kruchinin 28092022/Kruchinin 28092022/App.axaml]
+[C:/Users/kruch/OneDrive/Документы/DemExamAvalon/28092022var3/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/student/Documents/Visual Studio 2022/Kruchinin 28092022/Kruchinin 28092022/Views/MainWindow.axaml]
+[C:/Users/kruch/OneDrive/Документы/DemExamAvalon/28092022var3/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

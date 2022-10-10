@@ -18,42 +18,76 @@
 
 
 	<Grid
-		  ShowGridLines="True">
-		
+	ShowGridLines="True">
 		<Grid.RowDefinitions>
+			<RowDefinition Height="70"/>
+			<RowDefinition Height="*"/>
 			<RowDefinition Height="50"/>
-			<RowDefinition/>
-			<RowDefinition Height="60"/>
 		</Grid.RowDefinitions>
-		
+
 		<StackPanel
 			Grid.Row="0"
-			Height="40"
 			Orientation="Horizontal">
-			<Image
-			Margin="15,0,0,0"
-			Source="/Assets/Vosmerka.png"></Image>
-			<TextBox
-				Margin="27,2,20,80"
-				Height="20"
-				Width="300"
-				Watermark="Введите для поиска">
-				
-			</TextBox>
-			<ComboBox
-				
-				Margin="27,2,20,1"
-				Width="150"
-				></ComboBox>
-			<ComboBox
-				Margin="27,2,20,1"
-				Width="150"
-				></ComboBox>
-		</StackPanel>
-		<ListBox
-			Opacity="0.6"
-			Grid.Row="1">
-		</ListBox>
-	</Grid>
 
+			<TextBox Watermark="Введите для поиска"
+					 Margin="27,0,0,0"
+					 Height="50"
+					 Width="300">
+
+			</TextBox>
+			<ComboBox PlaceholderText="Сортировка"
+					  Margin="27,10,0,0"
+					  Height="50"
+					  Width="200">
+
+			</ComboBox>
+			<ComboBox PlaceholderText="Фильтрация"
+					  Margin="27,10,0,0"
+					  Height="50"
+					  Width="200">
+
+			</ComboBox>
+		</StackPanel>
+
+		<ListBox Grid.Row="1" Background="Transparent" Items="{Binding ProductMaterials}">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<Grid Height="50">
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="50"/>
+							<ColumnDefinition Width="*"/>
+							<ColumnDefinition Width="50"/>
+						</Grid.ColumnDefinitions>
+						<Image Grid.Column="0" Source="{Binding Product.Image}" />
+						<StackPanel Orientation="Horizontal" Grid.Column="1" VerticalAlignment="Top">
+							<TextBlock Text="{Binding Product.ProductType.Title}"/>
+							<TextBlock Text=" | "/>
+							<TextBlock Text="{Binding Product.Title}"/>
+						</StackPanel>
+						<StackPanel Orientation="Vertical" Grid.Column="1" VerticalAlignment="Bottom">
+							<TextBlock Text="{Binding Product.ArticleNumber}"/>
+							<TextBlock Text="None materials"/>
+						</StackPanel>
+						<TextBlock
+							Grid.Column="2"
+							Width="90"
+							Text="{Binding Product.MinCostForAgent,  StringFormat={}{0:C}}"/>
+					</Grid>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+
+		</ListBox>
+
+		<StackPanel
+			Grid.Row="2"
+			Orientation="Horizontal"
+			HorizontalAlignment="Right">
+			<Button
+				Content="&lt;"/>
+			<Button
+				Content="&gt;"/>
+
+		</StackPanel>
+
+	</Grid>
 </Window>
