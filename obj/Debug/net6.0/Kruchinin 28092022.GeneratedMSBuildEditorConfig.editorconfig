@@ -11,13 +11,13 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Kruchinin_28092022
-build_property.ProjectDir = C:\Users\kruch\OneDrive\Документы\DemExamAvalon\28092022var3\
+build_property.ProjectDir = C:\Users\kruch\OneDrive\Рабочий стол\Demon\Demon\
 
-[C:/Users/kruch/OneDrive/Документы/DemExamAvalon/28092022var3/App.axaml]
+[C:/Users/kruch/OneDrive/Рабочий стол/Demon/Demon/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/kruch/OneDrive/Документы/DemExamAvalon/28092022var3/Pages/PageAddProduct.axaml]
+[C:/Users/kruch/OneDrive/Рабочий стол/Demon/Demon/Pages/PageAddProduct.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/kruch/OneDrive/Документы/DemExamAvalon/28092022var3/Views/MainWindow.axaml]
+[C:/Users/kruch/OneDrive/Рабочий стол/Demon/Demon/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

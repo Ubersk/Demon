@@ -5064,11 +5064,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kruch\\OneDrive\\Документы\\DemExamAvalon\\28092022var3\\Kruchinin 28092022.csproj",
+      "projectUniqueName": "C:\\Users\\kruch\\OneDrive\\Рабочий стол\\Demon\\Demon\\Kruchinin 28092022.csproj",
       "projectName": "Kruchinin 28092022",
-      "projectPath": "C:\\Users\\kruch\\OneDrive\\Документы\\DemExamAvalon\\28092022var3\\Kruchinin 28092022.csproj",
+      "projectPath": "C:\\Users\\kruch\\OneDrive\\Рабочий стол\\Demon\\Demon\\Kruchinin 28092022.csproj",
       "packagesPath": "C:\\Users\\kruch\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kruch\\OneDrive\\Документы\\DemExamAvalon\\28092022var3\\obj\\",
+      "outputPath": "C:\\Users\\kruch\\OneDrive\\Рабочий стол\\Demon\\Demon\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

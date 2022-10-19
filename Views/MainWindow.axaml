@@ -37,7 +37,8 @@
 			<TextBox Watermark="Введите для поиска"
 					 Margin="27,0,0,0"
 					 Height="50"
-					 Width="300">
+					 Width="300"
+					 >
 
 			</TextBox>
 			<ComboBox PlaceholderText="Сортировка"
@@ -54,7 +55,7 @@
 			</ComboBox>
 		</StackPanel>
 
-		<ListBox Grid.Row="1" Background="Transparent" Items="{Binding ProductMaterials}">
+		<ListBox Grid.Row="1" Background="Transparent" x:Name="ListItem">
 			<ListBox.ItemTemplate>
 				<DataTemplate>
 					<Grid Height="50">
@@ -63,26 +64,26 @@
 							<ColumnDefinition Width="*"/>
 							<ColumnDefinition Width="50"/>
 						</Grid.ColumnDefinitions>
-						<Image Grid.Column="0" Source="{Binding Product.Image}" />
+						<Image Grid.Column="0" Source="{Binding Image}"/>
 						<StackPanel Orientation="Horizontal" Grid.Column="1" VerticalAlignment="Top">
-							<TextBlock Text="{Binding Product.ProductType.Title}"/>
+							<TextBlock Text="{Binding Title}"/>
 							<TextBlock Text=" | "/>
-							<TextBlock Text="{Binding Product.Title}"/>
+							<TextBlock Text="{Binding Type}"/>
 						</StackPanel>
 						<StackPanel Orientation="Vertical" Grid.Column="1" VerticalAlignment="Bottom">
-							<TextBlock Text="{Binding Product.ArticleNumber}"/>
-							<TextBlock Text="None materials"/>
+							<TextBlock Text="{Binding ArticleNumber}"/>
+							<TextBlock Text="{Binding Materials, TargetNullValue='Материалов нет'}"/>
 						</StackPanel>
 						<TextBlock
 							Grid.Column="2"
 							Width="90"
-							Text="{Binding Product.MinCostForAgent,  StringFormat={}{0:C}}"/>
+							Text="{Binding Cost,  StringFormat={}{0:C}}"/>
 					</Grid>
 				</DataTemplate>
 			</ListBox.ItemTemplate>
 
 		</ListBox>
-		
+
 		<StackPanel
 			Grid.Row="2"
 			Orientation="Horizontal"

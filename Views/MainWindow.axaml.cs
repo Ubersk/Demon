@@ -1,4 +1,5 @@
 using Avalonia.Controls;
+using Kruchinin_28092022.ViewModels;
 
 namespace Kruchinin_28092022.Views
 {
@@ -7,6 +8,7 @@ namespace Kruchinin_28092022.Views
         public MainWindow()
         {
             InitializeComponent();
+            MainWindowViewModel.Page1 = this;
         }
     }
 }

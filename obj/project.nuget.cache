@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8Rxe9Xhn6JyLK2cuDx4i1f2+yBIq88ezGgA2sNSuA5r/CAuJcnTOSUCJXkN9b7QXCD2yILyiGy5OpMNjWUQmng==",
+  "dgSpecHash": "KqadN/UeDGUBSds+cpfFG5jRUHyKsbH6JxC8pYTKu1ZELswLIKX2aKNq0PufjzUwKYt4GAW2v/4dYiumMfCAiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kruch\\OneDrive\\Документы\\DemExamAvalon\\28092022var3\\Kruchinin 28092022.csproj",
+  "projectFilePath": "C:\\Users\\kruch\\OneDrive\\Рабочий стол\\Demon\\Demon\\Kruchinin 28092022.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kruch\\.nuget\\packages\\avalonia\\0.10.18\\avalonia.0.10.18.nupkg.sha512",
     "C:\\Users\\kruch\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.0.2020091801\\avalonia.angle.windows.natives.2.1.0.2020091801.nupkg.sha512",

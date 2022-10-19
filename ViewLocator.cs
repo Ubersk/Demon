@@ -2,6 +2,7 @@ using System;
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
 using Kruchinin_28092022.ViewModels;
+using Variant2.ViewModels;
 
 namespace Kruchinin_28092022
 {
