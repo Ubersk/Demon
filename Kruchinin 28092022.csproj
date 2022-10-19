@@ -13,6 +13,7 @@
     <None Remove="Assets\picture.png" />
     <None Remove="Assets\Vosmerka.ico" />
     <None Remove="Assets\Vosmerka.png" />
+    <None Remove="products\tire_15.jpg" />
   </ItemGroup>
   <ItemGroup>
 	<!--This helps with theme dll-s trimming.
